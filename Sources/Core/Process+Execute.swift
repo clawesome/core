@@ -1,3 +1,5 @@
+import Foundation
+
 extension Process {
     /// Executes the supplied program in a new process, blocking until the process completes.
     /// Any data piped to `stdout` during the process will be returned as a string.
